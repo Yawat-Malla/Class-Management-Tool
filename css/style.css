@@ -1,0 +1,245 @@
+body {
+    font-family: 'Century Gothic', Arial, sans-serif;
+    /* Set the font-family to Century Gothic, fallback to Arial and sans-serif */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    /* Set the height of the body to 100% of the viewport height */
+}
+
+#navbar {
+    width: 200px;
+    background-color: #fff;
+    /* Set the background color to white */
+    color: #333;
+    /* Set the text color to a dark shade */
+    padding: 30px 20px;
+    /* Adjust the padding for top and bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center the content horizontally within the navbar */
+    justify-content: center;
+    /* Center the content vertically within the navbar */
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#navbar li {
+    margin-bottom: 15px;
+
+    /* Adjust the margin-bottom to add more space between options */
+}
+
+#content-middle {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#content-middle h3 {
+    margin-bottom: 10px;
+    /* Add some space below the greeting message */
+    color: #777;
+    /* Set the color to light gray */
+}
+
+#content-middle h1 {
+    margin-bottom: 10px;
+    /* Add some space below the task information */
+}
+
+#content-middle h2 {
+    margin-bottom: 20px;
+    /* Add more space below the h1 element */
+}
+
+#content-right {
+    width: 300px;
+    background-color: #eee;
+    padding: 20px;
+}
+
+/* Style for navbar tabs */
+#navbar a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 15px 20px;
+    /* Adjust the padding to add more space around each element */
+    border-radius: 5px;
+    font-weight: bold;
+    /* Make the font bold */
+    transition: background 0.3s, color 0.3s, margin-left 0.3s;
+    /* Add transition for smooth hover effect */
+}
+
+#navbar a:hover {
+    background-color: #000;
+    /* Change the background color on hover to black */
+    color: #fff;
+    /* Change the text color on hover to white */
+    margin-left: -10px;
+    /* Adjust the margin to extend the background to the left corner */
+}
+
+/* for Calendar */
+
+.calendar {
+    width: 300px;
+    /* Adjust the width as needed */
+    border-spacing: 10px;
+    /* Add space between cells */
+}
+
+.current-day {
+    background-color: darkorange;
+    /* Dark yellow color */
+    color: white;
+    /* Text color for better visibility */
+    font-weight: bold;
+    /* Bold text for better visibility */
+    border-radius: 20%;
+    /* Make the highlight round */
+    padding: 8px;
+    /* Add padding for better appearance */
+}
+
+.profile-img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    /* Align items vertically in the middle */
+    margin-bottom: 10px;
+    /* Adjust the margin as needed */
+    transition: background-color 0.3s;
+    /* Add a smooth transition effect */
+}
+
+li:hover {
+    background-color: black;
+    /* Change background color on hover */
+    border-top-right-radius: 7%;
+    border-bottom-right-radius: 7%;
+}
+
+.icon {
+    width: 30px;
+    /* Adjust the width as needed */
+    height: 30px;
+    /* Adjust the height as needed */
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    /* Set text color */
+}
+
+.show-assigments {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    /* Add space above the table */
+    border: 0;
+    /* Remove table borders */
+}
+
+.show-assigments th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+.show-assigments th {
+    background-color: #f2f2f2;
+}
+
+.lg-out-btn {
+
+    border: 0;
+
+}
+
+.lg-out-btn :hover {
+    width: 70px;
+    /* Adjust the width */
+    height: 50px;
+    /* Adjust the height */
+    font-size: 20px;
+    /* Adjust the font size */
+    padding-top: 10px;
+    /* Adjust the padding for width and height */
+    background-color: darkorange;
+    border-radius: 20%;
+
+}
+
+button {
+    font-size: 12px;
+    /* Adjust the font size */
+    padding: 6px 10px;
+    /* Adjust the padding for width and height */
+}
+
+.main-cnt {
+    display: flex;
+}
+
+.main-cnt {
+    display: flex;
+}
+
+#username, #password{
+  font-size: 16px;
+  max-width: 500px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.loginbttn{
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+  width:100%;
+  height:50px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loginbttn:hover {
+  background-color: teal;
+}
+
+.signbttn{
+  padding-top:10px;
+  color: teal;
+  font-size:17px;
+  
+}
+.log-table{
+    margin: 0 auto;
+    padding-top:15%
+  
+  }
